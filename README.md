@@ -9,7 +9,7 @@ Logic Analyzer Capture When mouse/keyboard connected to PC :- Device Descriptors
 
 ![image](https://github.com/user-attachments/assets/1e7bd2a7-56f3-4709-83b8-bf53d481bf3c)
 
-SCreenshot Capture when connected with USB 1.0 Host IP Core Tested On FPGA Platform.
+Screenshot Capture when connected with USB 1.0 Host IP Core Tested On FPGA Platform. Tested For all the various Transactions Also.
 
 ![image](https://github.com/user-attachments/assets/2af7fb05-0066-4c19-ac55-90ada7488d2a)
 
