@@ -1,28 +1,4 @@
-//-----------------------------------------------------------------------------
-// Company:         Vicharak Computers PVT LTD
-// Engineer:        Mahekkumar Varasada <mahekvarasada@gmail.com>
-// 
-// Create Date:     April 2, 2025
-// Design Name:     usbls_tx_dp_dn
-// Module Name:     usbls_tx_dp_dn.v
-// Project:         PeriPlex
-// Target Device:   Trion T120F324
-// Tool Versions:   Efinix Efinity 2024.2 
-// 
-// Description: 
-//    This module transmits the message in NRZI encoded format at dp,dn lines.  
-// 
-// Dependencies: 
-// 
-// Version:
-//    1.0 - 02/04/2025 - MKV - Initial release
-// 
-// Additional Comments: 
-//  currently bit stuffing is done mannually for this module. 
-// 
-// License: 
-//    Proprietary © Vicharak Computers PVT LTD - 2024
-//-----------------------------------------------------------------------------
+
 module usbls_tx_dp_dn(
 	input        clk,
 	input        tx_en,
