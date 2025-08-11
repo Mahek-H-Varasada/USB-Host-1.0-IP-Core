@@ -1,28 +1,3 @@
-//-----------------------------------------------------------------------------
-// Company:         Vicharak Computers PVT LTD
-// Engineer:        Mahekkumar Varasada <mahekvarasada@gmail.com>
-// 
-// Create Date:     April 2, 2025
-// Design Name:     usbls_tx_msg_gen
-// Module Name:     usbls_tx_msg_gen.v
-// Project:         PeriPlex
-// Target Device:   Trion T120F324
-// Tool Versions:   Efinix Efinity 2024.2 
-// 
-// Description: 
-//    This module concentate whole transmit message based upon input flag selection
-// 
-// Dependencies: 
-// 
-// Version:
-//    1.0 - 02/04/2025 - MKV - Initial release
-// 
-// Additional Comments: 
-//    
-// 
-// License: 
-//    Proprietary © Vicharak Computers PVT LTD - 2024
-//-----------------------------------------------------------------------------
 
 module usbls_tx_msg_gen(
     input              set_report,
