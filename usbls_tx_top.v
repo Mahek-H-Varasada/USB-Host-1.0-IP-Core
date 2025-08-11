@@ -1,34 +1,4 @@
-//-----------------------------------------------------------------------------
-// Company:         Vicharak Computers PVT LTD
-// Engineer:        Mahekkumar Varasada <mahekvarasada@gmail.com>
-// 
-// Create Date:     April 2, 2025
-// Design Name:     usbls_crc16_top
-// Module Name:     usbls_crc16_top.v
-// Project:         PeriPlex
-// Target Device:   Trion T120F324
-// Tool Versions:   Efinix Efinity 2024.2 
-// 
-// Description: 
-//    This module instantiates all the tx modules required.
-// 
-// Dependencies:- 1)usbls_tx_addr_endp_inv
-//                2)usbls_tx_data 
-//                3)usbls_tx_pid_gen
-//                4)usbls_crc16_top
-//                5)usbls_tx_crc5
-//                6)usbls_tx_msg_gen
-//                7)usbls_tx_dp_dn
-// 
-// Version:
-//    1.0 - 02/04/2025 - MKV - Initial release
-// 
-// Additional Comments: 
-//  
-// 
-// License: 
-//    Proprietary © Vicharak Computers PVT LTD - 2024
-//-----------------------------------------------------------------------------
+
 
 module usbls_tx_top(
 	input        clk,
