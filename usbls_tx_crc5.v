@@ -1,29 +1,4 @@
-//-----------------------------------------------------------------------------
-// Company:         Vicharak Computers PVT LTD
-// Engineer:        Mahekkumar Varasada <mahekvarasada@gmail.com>
-// 
-// Create Date:     April 2, 2025
-// Design Name:     usbls_tx_crc5
-// Module Name:     usbls_tx_crc5.v
-// Project:         PeriPlex
-// Target Device:   Trion T120F324
-// Tool Versions:   Efinix Efinity 2024.2 
-// 
-// Description: 
-//    This module calculates USB CRC5 on 11 bits inputs    
-// 
-// Dependencies: 
-// 
-// Version:
-//    1.0 - 02/04/2025 - MKV - Initial release
-// 
-// Additional Comments: 
-//   input data is {endpoint(4 bits), address(7 bits)} 
-//   ex:- endpt = 0x02 , address = 0x01 then input is  0010_0000001 ans is 0x18(11000)
-// 
-// License: 
-//    Proprietary © Vicharak Computers PVT LTD - 2024
-//-----------------------------------------------------------------------------
+
 
 module usbls_tx_crc5 (
 	input  [10:0] data,    // 11-bit input data
