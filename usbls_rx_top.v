@@ -1,29 +1,4 @@
-//-----------------------------------------------------------------------------
-// Company:         Vicharak Computers PVT LTD
-// Engineer:        Mahekkumar Varasada <mahekvarasada@gmail.com>
-// 
-// Create Date:     April 2, 2025
-// Design Name:     usbls_rx_top
-// Module Name:     usbls_rx_top.v
-// Project:         PeriPlex
-// Target Device:   Trion T120F324
-// Tool Versions:   Efinix Efinity 2024.2 
-// 
-// Description: 
-//    This module is receives serial data, performs NRZI Decoding, Bit Unstuffing 
-//    segregates into its PID, DATA, CRC, data_size
-//
-// Dependencies: 
-// 
-// Version:
-//    1.0 - 02/04/2025 - MKV - Initial release
-// 
-// Additional Comments: 
-//  
-// 
-// License: 
-//    Proprietary © Vicharak Computers PVT LTD - 2024
-//-----------------------------------------------------------------------------
+
 
 module usbls_rx_top(
 	input              clk,
